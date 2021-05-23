@@ -14,7 +14,6 @@
 		9BD90B312653477D00E3E37B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD90B302653477D00E3E37B /* Assets.xcassets */; };
 		9BD90B3D26534DE600E3E37B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD90B3C26534DE600E3E37B /* Settings.swift */; };
 		9BD90B3F26535FDC00E3E37B /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD90B3E26535FDC00E3E37B /* MenuScene.swift */; };
-		9BD90B412653689F00E3E37B /* bling.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9BD90B402653689F00E3E37B /* bling.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		9BD90B322653477D00E3E37B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BD90B3C26534DE600E3E37B /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		9BD90B3E26535FDC00E3E37B /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
-		9BD90B402653689F00E3E37B /* bling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bling.wav; path = "../../../Documents/Color Switch/ColorSwitch/ColorSwitch/bling.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 		9BD90B222653477B00E3E37B /* ColorSwitch */ = {
 			isa = PBXGroup;
 			children = (
-				9BD90B402653689F00E3E37B /* bling.wav */,
 				9BD90B322653477D00E3E37B /* Info.plist */,
 				9BD90B3B26534A5000E3E37B /* Assets */,
 				9BD90B3A26534A4300E3E37B /* Template */,
@@ -164,7 +161,6 @@
 			files = (
 				9BD90B2F2653477B00E3E37B /* Main.storyboard in Resources */,
 				9BD90B312653477D00E3E37B /* Assets.xcassets in Resources */,
-				9BD90B412653689F00E3E37B /* bling.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

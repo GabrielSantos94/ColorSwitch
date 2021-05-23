@@ -150,7 +150,6 @@ extension GameScene: SKPhysicsContactDelegate {
                 
                 //verifica se o index da cor escolhida faz match com o index do array de cores
                 if currentColorIndex == switchState.rawValue {
-                    run(SKAction.playSoundFileNamed("bling", waitForCompletion: false))
                     score += 1
                     updateScoreLabel()
                     ball.run(SKAction.fadeOut(withDuration: 0.25)) { [weak self] in
